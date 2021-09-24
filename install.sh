@@ -8,10 +8,10 @@ echo "Enter Your Longitude: "
 read longitude
 
 
-sudo echo "[redshift]
+echo "[redshift]
 allowed=true
 system=false
-users=" >> /etc/geoclue/geoclue.conf
+users=" | sudo tee -a /etc/geoclue/geoclue.conf
 
 # enable at startup
 sudo systemctl enable redshift.service 

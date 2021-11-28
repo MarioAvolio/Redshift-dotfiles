@@ -24,7 +24,8 @@ sudo pacman install redshift
 ```bash
 git clone https://github.com/MarioAvolio/Redshift-dotfiles.git
 cd Redshift-dotfiles
-sudo bash install.sh
+sudo chmod +x install.sh
+./install.sh
 ```
 
 ## Contributing

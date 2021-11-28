@@ -14,8 +14,8 @@ system=false
 users=" | sudo tee -a /etc/geoclue/geoclue.conf
 
 # enable at startup
-sudo systemctl enable redshift.service 
-sudo systemctl start redshift.service
+# sudo systemctl enable redshift.service 
+# sudo systemctl start redshift.service
 
 # configuration
 sudo echo "; Global settings for redshift

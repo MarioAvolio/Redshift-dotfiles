@@ -27,7 +27,7 @@ cd Redshift-dotfiles
 sudo chmod +x install.sh
 ./install.sh
 ```
-To Find you coordinate gps: https://www.gps-coordinates.net/
+To find your gps coordinate: https://www.gps-coordinates.net/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
